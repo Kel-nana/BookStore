@@ -78,7 +78,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd your-folder
-  git clone git@github.com:sawmon71293/BookStore.git
+  git clone git@github.com:Kel-nana/BookStore.git
 ```
 
 ### Install
