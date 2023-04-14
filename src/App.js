@@ -1,32 +1,19 @@
 import {
-  createBrowserRouter,
-  createRoutesFromElements,
-  Route,
-  RouterProvider,
+  createBrowserRouter, createRoutesFromElements, Route, RouterProvider,
 } from 'react-router-dom';
 import './App.css';
-import BookList from './components/BookList/BookList';
-import Category from './components/Category';
-import Rootlayout from './components/Rootlayout';
+import BookListComponent from './components/BookList/BookList';
+import CategoryComponent from './components/Category';
+import RootLayoutComponent from './components/Rootlayout';
 
-const router = createBrowserRouter(
-  createRoutesFromElements(
-    <Route
-      path="/"
-      element={<Rootlayout />}
-    >
-      <Route
-        index
-        element={<BookList />}
-      />
-
-      <Route
-        path="category"
-        element={<Category />}
-      />
-    </Route>,
-  ),
+const routes = createRoutesFromElements(
+  <Route path="/" element={<RootLayoutComponent />}>
+    <Route index element={<BookListComponent />} />
+    <Route path="category" element={<CategoryComponent />} />
+  </Route>,
 );
+
+const router = createBrowserRouter(routes);
 
 function App() {
   return <RouterProvider router={router} />;
