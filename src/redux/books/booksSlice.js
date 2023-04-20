@@ -4,22 +4,22 @@ const initialState = {
   books: [
     {
       itemid: 'item1',
-      title: 'The Great Gatsby',
-      author: 'John Smith',
+      title: 'The Hunger Game',
+      author: 'Suzanne Collins',
       category: 'Fiction',
       percentage: '64%',
     },
     {
       itemid: 'item2',
-      title: 'Anna Karenina',
-      author: 'Leo Tolstoy',
+      title: 'Dune',
+      author: 'Frank Herbert',
       category: 'Fiction',
       percentage: '8%',
     },
     {
       itemid: 'item3',
-      title: 'The Selfish Gene',
-      author: 'Richard Dawkins',
+      title: 'Capital in the Twenty-first Century',
+      author: 'Suzanne Collins',
       category: 'Nonfiction',
       percentage: '0%',
     },
