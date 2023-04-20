@@ -2,7 +2,7 @@ import {
   createBrowserRouter, createRoutesFromElements, Route, RouterProvider,
 } from 'react-router-dom';
 import './App.css';
-import BookListComponent from './components/BookList/BookList';
+import BookListComponent from './components/BookList';
 import CategoryComponent from './components/Category';
 import RootLayoutComponent from './components/Rootlayout';
 
