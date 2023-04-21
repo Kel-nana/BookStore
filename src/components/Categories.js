@@ -18,9 +18,9 @@ function Categories() {
       <button type="button" className="btn btn-status" style={{ marginTop: '5rem', backgroundColor: '#009FBD', fontSize: '17px' }} onClick={handleClick}>
         Check Status
       </button>
-      <ul>
+      <ul className="underUl">
         {categories.map((category) => (
-          <li key={category.value}>{category.value}</li>
+          <li className="underLi" key={category.value}>{category.value}</li>
         ))}
       </ul>
     </div>
