@@ -234,7 +234,8 @@ main {
   position: absolute;
   width: 11.5rem;
   height: 3.2rem;
-  border-radius: 3px;
+  border-radius: 8px;
+  border: 3px solid #0291ff3b;
   background-color: #0290ff;
   color: #fff;
 }
